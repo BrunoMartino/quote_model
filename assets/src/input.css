@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-container {
+  @apply flex justify-center mb-8;
+}
+.title-1 {
+  @apply mt-8 text-center text-xl font-bold uppercase block after:mt-2 after:content-[''] after:block w-auto after:h-1 after:bg-sky-600;
+}
+.title-2 {
+  @apply mt-8 text-center text-white text-xl font-bold uppercase block after:mt-2 after:content-[''] after:block w-auto after:h-1 after:bg-sky-600;
+}
+.condition-p {
+  @apply px-4 flex items-start gap-2 mb-4 before:content-[''] before:h-1 before:w-3 before:block before:bg-sky-600 before:flex-shrink-0 before:mt-3;
+}
+.after-bar {
+  @apply after:mt-1 after:content-[''] after:block w-auto after:h-1 after:bg-sky-600;
+}
+.before-ball {
+  @apply before:content-[''] before:block before:w-3 before:h-3 before:rounded-full before:bg-sky-500 before:animate-pulse;
+}
+.sub-title {
+  @apply after-bar text-white font-semibold uppercase inline-block py-8;
+}
+.sub-title-2 {
+  @apply before-ball text-white font-semibold uppercase flex gap-2 items-center py-8;
+}
+.condition-p-2 {
+  @apply px-4 flex items-start gap-2 mb-4 before:content-[''] before:h-3 before:w-1 before:block before:bg-sky-600 before:flex-shrink-0 before:mt-2 text-white text-lg font-semibold;
+}
+.price-card {
+  @apply bg-black px-8 py-8 rounded-lg shadow-md border-2 border-gray-100 max-w-lg h-full;
+}
+.title-h2 {
+  @apply text-3xl text-white font-semibold capitalize;
+}
+.price-li {
+  @apply bg-gray-900 rounded-xl px-4 pb-4 mb-6;
+}
